@@ -1,0 +1,53 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+  background-color: hsl(0, 0%, 95%);
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sedans {
+  flex: 33.33%;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  flex: 33.33%;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  flex: 33.33%;
+  background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+p {
+  background-color: transparent;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedan_btn {
+background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.suv_btn {
+background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.lux_btn {
+background-color: hsla(0, 0%, 100%, 0.75);
+}
+
