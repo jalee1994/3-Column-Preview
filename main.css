@@ -5,11 +5,13 @@
   background-color: hsl(0, 0%, 95%);
 }
 
+main {width: 100%;}
+
 .choices {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  min-width: 375px;
 }
 
 .sedans {
@@ -31,12 +33,15 @@ h1 {
   background-color: transparent;
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
 p {
   background-color: transparent;
   font-size: 15px;
   color: hsla(0, 0%, 100%, 0.75);
+  justify-items: left;
+  padding-left: 10px;
 }
 
 .sedan_btn {
@@ -50,4 +55,3 @@ background-color: hsla(0, 0%, 100%, 0.75);
 .lux_btn {
 background-color: hsla(0, 0%, 100%, 0.75);
 }
-
